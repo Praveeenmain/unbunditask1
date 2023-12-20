@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.carousel-Heading-box {
+    height: 100vh;
+    width: 100%;
+    padding: 35px;
+    margin-bottom: 15px;
+    background-color: Brown;
+    background-size: cover;
+
+}
+
+.Task-heading {
+    color: white;
+    font-family: Roboto;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+/* Define the animation keyframes */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.Task-Paragraph {
+    color: white;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    font-family: Roboto;
+}
+
+/* Define the animation keyframes */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.line {
+    height: 2px;
+    border: none;
+    background-color: grey;
+}
+
+
+@media (max-width: 767px) {
+
+    
+    .carousel-Heading-box {
+        padding: 20px;
+    }
+
+    .Task-Paragraph {
+        font-size: 15px;
+    }
+
+    .Task-heading {
+        font-size: 15px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    
+    .carousel-Heading-box {
+        padding: 30px;
+    }
+
+    .Task-Paragraph {
+        font-size: 25px;
+    }
+
+    .Task-heading {
+        font-size: 25px;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .carousel-Heading-box {
+        padding: 35px;
+        height: 150vh;
+    }
+}
