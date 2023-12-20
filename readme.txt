@@ -6,6 +6,7 @@ This project demonstrates how to create a simple image carousel using Bootstrap 
 ## Preview
 
 Include a preview of your carousel here if possible, showcasing how it looks in action.
+https://interntsk.ccbp.tech/
 
 ## Features
 
